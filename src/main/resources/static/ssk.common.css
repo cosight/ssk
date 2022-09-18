@@ -1,0 +1,53 @@
+body,
+h1, h2, h3, h4, h5, h6,
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    /* https://en.wikipedia.org/wiki/Help:Link_color */
+    color: #0645AD;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid blue;
+}
+
+header ul {
+    display: flex;
+}
+
+header h2 {
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    border: 1px solid black;
+    padding: 1rem;
+    margin-right: 0.5rem;
+}
+
+header li:last-child {
+    margin-right: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 1rem);
+}
