@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class AuthPageController {
 
-    @GetMapping("/login")
-    public String goLogin() {
-        return "pages/auth/login";
-    }
+    // @GetMapping("/login")
+    // public String goLogin() {
+    //     return "pages/auth/login";
+    // }
 
 }
